@@ -30,7 +30,7 @@ suite('Todos', function() {
     });
 
     client.eval(function() {
-      Todos.insert({name: 'get groceries'});
+      Todos.insert({name: 'try out Meteor!'});
     });
   });
 
