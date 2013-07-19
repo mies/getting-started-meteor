@@ -11,6 +11,7 @@ suite('Todos', function() {
 
     server.once('docs', function(docs) {
       assert.equal(docs.length, 1);
+      assert.equal(docs[0].name, 'try out Meteor!');
       done();
     });
   });
